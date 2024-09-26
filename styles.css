@@ -15,7 +15,7 @@ body {
     
     .logo {
       color: #6070FF;
-      font-weight: bold;
+      font-weight: 700;
       font-size: 18px;
       text-decoration: none;
     }
@@ -31,65 +31,51 @@ body {
     
     .menu span {
       display: block;
-      width: 100%;
-      height: 5%;
+      width: 20px;
+      height: 3px;
+      border-radius: 10px;
       background-color: #6070FF;
-      transition: all 0.3s ease;
+
     }
     
    
     .body{
       margin: auto;
-      padding: 15% 10%;
+      padding: 10% 10%;
     }
     .body h1{
-      font-weight: 600;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
       color: #172B4D;
       font: poppings;
     }
     .body p{
       color: #344563;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
       font: poppings;
   
     }
     .body a{
       text-decoration: none;
       margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
       color: #7F8CFF;
     }
-    .body div img{
+    .body div i{
       width: 20px;
-      margin-top: 30px;
+      height: 20px;
+      margin-top: 5px;
       
     }
   }
   
   /* Media query for larger screens */
 @media screen and (min-width: 768px) {
-  .menu-icon {
-    display: none;
-  }
-
-  .nav-menu {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .nav-menu li {
-    margin-left: 20px;
-  }
-
-  .nav-menu a {
-    color: #344563;
-    text-decoration: none;
-    font-size: 16px;
-  }
-
-  .nav-menu a:hover {
-    color: #6070FF;
-  }
 }
   
   
