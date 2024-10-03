@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+@media screen and (min-width: 375px) {
+  .body {
+    background-image: url('/background1.png');
+    background-repeat: no-repeat;
+    padding: 5% 10%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #fff;
+  }
+
+  .logo {
+    color: #6070ff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .menu {
+    width: 6vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  .menu span {
+    display: block;
+    width: 20px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #6070ff;
+  }
+
+  .body h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
+  .body p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #344563;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -15px;
+  }
+
+  .body a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .body div i {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    color: #505f79;
+  }
+}
