@@ -80,7 +80,7 @@ body {
     margin-top: 5px;
     color: #505f79;
   }
-  .sec{
+  /* .sec{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:  50% 50%;
@@ -163,7 +163,131 @@ body {
     text-decoration: none;
     margin-left: 20px;
 
+  } */
+
+  .sec_container {
+    max-width: 375px;
+    margin: 30px auto 0;
+}
+
+.project {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.project-image {
+  display: flex; /* Centers the image horizontally */
+  justify-content: center; /* Ensures it's centered horizontally */
+  margin-bottom: 20px; /* Optional: Adds some space below the image */
+}
+
+.project-image img {
+  width: 295px;
+    height: 220px;
+    border-radius: 8px 0px 0px 0px;
+    padding-top: 5px;
+}
+
+.project-details {
+    padding: 15px;
+}
+
+h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 44px;
+      text-align: left;
+      width: 295px; /* Align the heading's width with the image */
+      margin-left: auto; /* Ensure alignment under the image */
+      margin-right: auto;
+                          /* Ensure alignment under the image */
+      margin-top: 0px;
+      padding-left: 10px; /* Adjust to move it slightly to the left */
   }
 
+
+  
 }
+
+.project-info {
+    font-size: 0.85em;
+    color: #888;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 295px; /* Align the heading's width with the image */
+    margin-left: auto; /* Ensure alignment under the image */
+    margin-right: auto;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+#canopy{
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+}
+
+.project-info .dot {
+    width: 5px;
+    height: 5px;
+    background-color: #888;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+p {
+    width: 295px; /* Align the heading's width with the image */
+    margin-left: auto; /* Ensure alignment under the image */
+    margin-right: auto;
+    margin-top: 0px;
+    padding-left: 10px;
+    font-size: 0.95em;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.tech-stack {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 295px; /* Align the heading's width with the image */
+    margin-left: auto; /* Ensure alignment under the image */
+    margin-right: auto;
+    margin-top: 0px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.tech-stack li {
+    font-size: 0.85em;
+    color: #3498db;
+    background-color: #e0f7fa;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.project-link {
+    display: inline-block;
+    font-size: 0.95em;
+    color: white;
+    background-color: #3498db;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.project-link:hover {
+    background-color: #2874a6;
+}
+
 
